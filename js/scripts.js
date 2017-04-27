@@ -1,14 +1,13 @@
 // chyba "zarybiło"!!!!
 var a = prompt('podaj wartosc a', '');
 var b = prompt('podaj wartosc b', '');
-var userData = (a * a) + (2 * a * b) - (b * b);
-alert('value ' + userData);
-console.log('value o wartosci a: ' + a + ' i wartosci b: ' + b + ' wynosi: ' + userData);
-if (userData > '0') {
-    alert('dodatni');
-} else if (userData < '0') {
-    alert('ujemny');
+var value = (a * a) + (2 * a * b) - (b * b);
+console.log('działania na zmienej a: ' + a + ' i zmienej b: ' + b + ' dają wartość: ' + value);
+if (value > 0) {
+    console.log('wynik dodatni');
+} else if (value < 0) {
+    console.log('wynik ujemny');
 } else {
-    alert('równy "0"');
+    console.log('wynik równy "0"');
 }
 
